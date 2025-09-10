@@ -1,5 +1,4 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -39,4 +38,24 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.navbar-blur {
+  background-color: rgba(21, 20, 15, 0.4);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: background-color 0.4s ease, backdrop-filter 0.4s ease;
+}
+
+.background-img {
+  background-image: url('/src/assets/bgr-img.png');
+  background-repeat: repeat;
+  background-size: 100px;
+  height: 100%;
+  width: 100%; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  padding: 0 !important;
 }
